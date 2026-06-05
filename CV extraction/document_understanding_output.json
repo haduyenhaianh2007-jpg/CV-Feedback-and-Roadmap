@@ -1,0 +1,324 @@
+{
+  "pdf_type": "digital",
+  "structured_data": {
+    "personal_info": [
+      "Ha Duyen Hai Anh",
+      "Computer Science Student | AI Engineer Intern Candidate | Healthcare AI & LLM/RAG",
+      " +(84) 971 190 707",
+      "|",
+      "# haduyenhaianh2007@gmail.com",
+      "|",
+      "§ Github",
+      "Computer Science student at HUST focused on Healthcare AI, LLM applications, RAG systems, and AI engineering. Built AI prototypes",
+      "combining FastAPI, React, ChromaDB, Vietnamese STT, and transformer models for dermatology support and mood analysis."
+    ],
+    "summary": [],
+    "education": [
+      "Hanoi University of Science and Technology – HUST",
+      "Ha Noi, Viet Nam",
+      "Major: Computer Science – CPA: 3.47/4.0",
+      "09/2025 – Present",
+      "Present",
+      "Online / Offline Tutoring",
+      "• Tutored THCS/THPT students and developed structured practice problems for online mathematics education.",
+      "DEV-AI Member & Hackathon Organizing Committee",
+      "08/2025 – Present",
+      "GDG HUST / Google Developer On Campus - HUST",
+      "• Participated in AI-related activities and served as an organizing committee member for GDG Hackathon 2026.",
+      "08/2025 – Present",
+      "• Developed academic materials, researched digital transformation in education, and improved the club’s LaTeX course."
+    ],
+    "experience": [
+      "Learning Material Developer & AI Teaching Assistant",
+      "Summer 2026",
+      "KIDEMY Summer Camp",
+      "• Developed AI learning materials and supported beginner-friendly AI sessions with hands-on activities for young learners."
+    ],
+    "projects": [
+      [
+        "MEdPilot – AI Dermatology Diagnosis Support Suite"
+      ],
+      [
+        "GitHub"
+      ],
+      [
+        "Team Project",
+        "Lead + AI Engineer | FastAPI",
+        "React",
+        "vLLM",
+        "Qwen2.5-1.5B",
+        "Gemini",
+        "ChromaDB",
+        "PhoWhisper",
+        "RAG"
+      ],
+      [
+        "• Led AI development for MEdPilot",
+        "helping doctors convert Vietnamese consultation audio into structured clinical information",
+        "diagnostic"
+      ],
+      [
+        "suggestions",
+        "and RAG-grounded medical responses."
+      ],
+      [
+        "• Implemented rule-matching and RAG retrieval over 219 skin diseases and 75",
+        "659 indexed knowledge chunks",
+        "enabling doctor/patient"
+      ],
+      [
+        "modes",
+        "red-flag alerts",
+        "follow-up questions",
+        "and SOAP-style draft notes."
+      ],
+      [
+        "AI Mood Journal – Mental Wellness Journal for Vietnamese Students"
+      ],
+      [
+        "GitHub"
+      ],
+      [
+        "Team Project",
+        "Team Leader + AI Engineer | Python",
+        "Hugging Face",
+        "PhoBERT",
+        "GPT-4o-mini",
+        "Pandas",
+        "Matplotlib",
+        "JSON"
+      ],
+      [
+        "• Led AI development for a Vietnamese mental wellness journaling system that analyzes student entries and provides emotional reflection"
+      ],
+      [
+        "supportive responses",
+        "activity suggestions",
+        "and safety alerts."
+      ],
+      [
+        "• Built a Vietnamese NLP pipeline using PhoBERT",
+        "Hugging Face Transformers",
+        "GPT-4o-mini",
+        "and JSON-based tracking for sentiment"
+      ],
+      [
+        "analysis",
+        "topic classification",
+        "mood history",
+        "to-do extraction",
+        "and dashboard visualization."
+      ],
+      [
+        "GenAI Video Project – SOICT 30th Anniversary"
+      ],
+      [
+        "Team Project"
+      ],
+      [
+        "Team Project | HeyGen",
+        "Generative AI",
+        "Prompt Engineering",
+        "AI-assisted Content Creation"
+      ],
+      [
+        "• Implemented the technical workflow for a HeyGen-based GenAI video created for the 30th Anniversary of SOICT",
+        "using prompt"
+      ],
+      [
+        "engineering and AI-assisted content generation for script-to-video production."
+      ]
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "category": "Programming"
+      },
+      {
+        "name": "C/C++",
+        "category": "Programming"
+      },
+      {
+        "name": "PyTorch",
+        "category": "Ai/Ml"
+      },
+      {
+        "name": "Scikit-learn",
+        "category": "Ai/Ml"
+      },
+      {
+        "name": "Hugging Face Transformers",
+        "category": "Ai/Ml"
+      },
+      {
+        "name": "NLP",
+        "category": "Ai/Ml"
+      },
+      {
+        "name": "Computer Vision",
+        "category": "Ai/Ml"
+      },
+      {
+        "name": "LLMs",
+        "category": "Ai/Ml"
+      },
+      {
+        "name": "RAG",
+        "category": "Ai/Ml"
+      },
+      {
+        "name": "Prompt Engineering",
+        "category": "Ai/Ml"
+      },
+      {
+        "name": "Model Evaluation",
+        "category": "Ai/Ml"
+      },
+      {
+        "name": "Pandas",
+        "category": "Libraries & Frameworks"
+      },
+      {
+        "name": "NumPy",
+        "category": "Libraries & Frameworks"
+      },
+      {
+        "name": "Matplotlib",
+        "category": "Libraries & Frameworks"
+      },
+      {
+        "name": "OpenCV",
+        "category": "Libraries & Frameworks"
+      },
+      {
+        "name": "FastAPI",
+        "category": "Libraries & Frameworks"
+      },
+      {
+        "name": "Streamlit",
+        "category": "Libraries & Frameworks"
+      },
+      {
+        "name": "KARE",
+        "category": "Libraries & Frameworks"
+      },
+      {
+        "name": "Data Preprocessing",
+        "category": "Libraries & Frameworks"
+      },
+      {
+        "name": "AI-assisted Coding",
+        "category": "Libraries & Frameworks"
+      },
+      {
+        "name": "Git",
+        "category": "Tools"
+      },
+      {
+        "name": "GitHub",
+        "category": "Tools"
+      },
+      {
+        "name": "Google Colab",
+        "category": "Tools"
+      },
+      {
+        "name": "Kaggle",
+        "category": "Tools"
+      },
+      {
+        "name": "Jupyter Notebook",
+        "category": "Tools"
+      },
+      {
+        "name": "LaTeX",
+        "category": "Tools"
+      },
+      {
+        "name": "Overleaf",
+        "category": "Tools"
+      },
+      {
+        "name": "Data Structures",
+        "category": "Tools"
+      }
+    ],
+    "certifications": [
+      "IELTS 6.0 | GDG Hackathon 2026 Organizing Committee Certificate | Google Prompting Essentials – Coursera"
+    ],
+    "achievements": [
+      "• Top 9 Outstanding Teams, Student Creative Idea Challenge – SCIC Q1 2026 – MEdPilot"
+    ]
+  },
+  "career_profile": {
+    "current_role": "Learning Material Developer & AI Teaching Assistant",
+    "career_stage": "Student",
+    "experience_years": 0.0,
+    "domains": [
+      "AI/ML",
+      "Backend Development",
+      "Data Science"
+    ],
+    "skills": [
+      "Python",
+      "C/C++",
+      "PyTorch",
+      "Scikit-learn",
+      "Hugging Face Transformers",
+      "NLP",
+      "Computer Vision",
+      "LLMs",
+      "RAG",
+      "Prompt Engineering",
+      "Model Evaluation",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "OpenCV",
+      "FastAPI",
+      "Streamlit",
+      "KARE",
+      "Data Preprocessing",
+      "AI-assisted Coding",
+      "Git",
+      "GitHub",
+      "Google Colab",
+      "Kaggle",
+      "Jupyter Notebook",
+      "LaTeX",
+      "Overleaf",
+      "Data Structures"
+    ],
+    "technology_stack": [
+      "RAG",
+      "Streamlit",
+      "NumPy",
+      "Matplotlib",
+      "Kaggle",
+      "Git",
+      "Jupyter Notebook",
+      "KARE",
+      "OpenCV",
+      "Scikit-learn",
+      "Data Preprocessing",
+      "Data Structures",
+      "NLP",
+      "Computer Vision",
+      "GitHub",
+      "PyTorch",
+      "Python",
+      "C/C++",
+      "Google Colab",
+      "Pandas",
+      "LaTeX",
+      "Overleaf",
+      "LLMs",
+      "Hugging Face Transformers",
+      "AI-assisted Coding",
+      "Prompt Engineering",
+      "FastAPI",
+      "Model Evaluation"
+    ],
+    "summary": "Ha Duyen Hai Anh - Ứng viên tiềm năng | Lĩnh vực: AI/ML, Backend Development, Data Science"
+  }
+}
