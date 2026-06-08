@@ -1,0 +1,278 @@
+{
+  "skills": {
+    "Python": {
+      "category": "Programming Language",
+      "prerequisites": [],
+      "related": ["Git", "SQL", "Machine Learning", "Pandas", "NumPy"],
+      "leads_to": ["PyTorch", "TensorFlow", "Machine Learning", "Deep Learning", "FastAPI", "Streamlit"]
+    },
+    "C/C++": {
+      "category": "Programming Language",
+      "prerequisites": [],
+      "related": ["Data Structures", "System Design"],
+      "leads_to": ["PyTorch", "vLLM"]
+    },
+    "Git": {
+      "category": "Version Control",
+      "prerequisites": [],
+      "related": ["CI/CD", "GitHub Actions", "GitHub"],
+      "leads_to": ["GitHub"]
+    },
+    "GitHub": {
+      "category": "Version Control",
+      "prerequisites": ["Git"],
+      "related": ["Git", "CI/CD", "GitHub Actions"],
+      "leads_to": []
+    },
+    "SQL": {
+      "category": "Database",
+      "prerequisites": [],
+      "related": ["Python", "Data Analysis", "Pandas", "PostgreSQL"],
+      "leads_to": ["Apache Spark", "Data Engineering", "RAG"]
+    },
+    "Pandas": {
+      "category": "Data Processing",
+      "prerequisites": ["Python"],
+      "related": ["NumPy", "Data Preprocessing", "Matplotlib"],
+      "leads_to": ["Machine Learning", "Data Analysis"]
+    },
+    "NumPy": {
+      "category": "Data Processing",
+      "prerequisites": ["Python"],
+      "related": ["Pandas", "Matplotlib", "PyTorch"],
+      "leads_to": ["Machine Learning", "Deep Learning"]
+    },
+    "Matplotlib": {
+      "category": "Visualization",
+      "prerequisites": ["Python", "NumPy"],
+      "related": ["Seaborn", "Pandas", "Data Analysis"],
+      "leads_to": []
+    },
+    "Data Preprocessing": {
+      "category": "Data Processing",
+      "prerequisites": ["Python", "Pandas", "NumPy"],
+      "related": ["Data Analysis", "Machine Learning"],
+      "leads_to": ["Machine Learning"]
+    },
+    "Machine Learning": {
+      "category": "AI/ML",
+      "prerequisites": ["Python", "SQL", "Pandas", "NumPy"],
+      "related": ["Data Analysis", "Statistics", "Scikit-learn"],
+      "leads_to": ["Deep Learning", "PyTorch", "TensorFlow", "MLOps", "Scikit-learn", "Model Evaluation"]
+    },
+    "Scikit-learn": {
+      "category": "ML Library",
+      "prerequisites": ["Python", "Machine Learning", "NumPy"],
+      "related": ["Pandas", "Model Evaluation", "Data Preprocessing"],
+      "leads_to": ["Model Evaluation", "Machine Learning"]
+    },
+    "Model Evaluation": {
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning", "Scikit-learn"],
+      "related": ["Scikit-learn", "Statistics"],
+      "leads_to": []
+    },
+    "Deep Learning": {
+      "category": "AI/ML",
+      "prerequisites": ["Machine Learning", "Python", "NumPy"],
+      "related": ["Computer Vision", "Natural Language Processing", "PyTorch"],
+      "leads_to": ["PyTorch", "TensorFlow", "LLM", "Computer Vision", "Natural Language Processing"]
+    },
+    "PyTorch": {
+      "category": "ML Framework",
+      "prerequisites": ["Python", "Machine Learning", "NumPy"],
+      "related": ["TensorFlow", "Deep Learning", "Hugging Face Transformers"],
+      "leads_to": ["LLM", "Fine-tuning", "Computer Vision", "Hugging Face Transformers", "Natural Language Processing"]
+    },
+    "TensorFlow": {
+      "category": "ML Framework",
+      "prerequisites": ["Python", "Machine Learning"],
+      "related": ["PyTorch", "Deep Learning"],
+      "leads_to": ["Computer Vision", "Natural Language Processing"]
+    },
+    "Computer Vision": {
+      "category": "AI Domain",
+      "prerequisites": ["Deep Learning", "Python", "NumPy"],
+      "related": ["PyTorch", "TensorFlow", "OpenCV"],
+      "leads_to": ["OpenCV"]
+    },
+    "OpenCV": {
+      "category": "Computer Vision Library",
+      "prerequisites": ["Python", "Computer Vision", "NumPy"],
+      "related": ["Computer Vision", "Deep Learning"],
+      "leads_to": []
+    },
+    "Natural Language Processing": {
+      "category": "AI Domain",
+      "prerequisites": ["Deep Learning", "Python", "Machine Learning"],
+      "related": ["LLM", "RAG", "Hugging Face Transformers"],
+      "leads_to": ["LLM", "RAG", "Hugging Face Transformers"]
+    },
+    "Hugging Face Transformers": {
+      "category": "NLP Library",
+      "prerequisites": ["Python", "PyTorch", "Natural Language Processing"],
+      "related": ["LLM", "Natural Language Processing", "Fine-tuning"],
+      "leads_to": ["LLM", "Fine-tuning"]
+    },
+    "LLM": {
+      "category": "Generative AI",
+      "prerequisites": ["Deep Learning", "Natural Language Processing", "Hugging Face Transformers"],
+      "related": ["RAG", "Prompt Engineering", "Fine-tuning", "vLLM"],
+      "leads_to": ["RAG", "Fine-tuning", "AI Agent", "vLLM"]
+    },
+    "vLLM": {
+      "category": "Generative AI Infrastructure",
+      "prerequisites": ["LLM", "Python", "PyTorch"],
+      "related": ["LLM", "Docker"],
+      "leads_to": []
+    },
+    "RAG": {
+      "category": "Generative AI",
+      "prerequisites": ["LLM", "SQL", "Natural Language Processing"],
+      "related": ["LLM", "Prompt Engineering", "ChromaDB", "Vector Database"],
+      "leads_to": ["AI Agent", "ChromaDB"]
+    },
+    "ChromaDB": {
+      "category": "Vector Database",
+      "prerequisites": ["Python", "RAG", "SQL"],
+      "related": ["RAG", "LLM"],
+      "leads_to": []
+    },
+    "Prompt Engineering": {
+      "category": "Generative AI",
+      "prerequisites": ["LLM"],
+      "related": ["RAG", "LLM", "AI Agent"],
+      "leads_to": ["AI Agent"]
+    },
+    "Fine-tuning": {
+      "category": "Generative AI",
+      "prerequisites": ["LLM", "PyTorch", "Hugging Face Transformers"],
+      "related": ["LLM", "PyTorch", "LoRA", "Hugging Face Transformers"],
+      "leads_to": []
+    },
+    "FastAPI": {
+      "category": "Web Framework",
+      "prerequisites": ["Python"],
+      "related": ["REST API", "Docker", "LLM"],
+      "leads_to": ["REST API", "Docker"]
+    },
+    "Streamlit": {
+      "category": "Web Framework",
+      "prerequisites": ["Python"],
+      "related": ["FastAPI", "LLM", "RAG"],
+      "leads_to": []
+    },
+    "REST API": {
+      "category": "Web",
+      "prerequisites": ["Python", "FastAPI"],
+      "related": ["FastAPI", "Docker"],
+      "leads_to": []
+    },
+    "Docker": {
+      "category": "DevOps",
+      "prerequisites": [],
+      "related": ["Kubernetes", "CI/CD", "MLOps", "FastAPI"],
+      "leads_to": ["Kubernetes", "MLOps"]
+    },
+    "Kubernetes": {
+      "category": "DevOps",
+      "prerequisites": ["Docker"],
+      "related": ["Docker", "CI/CD", "MLOps"],
+      "leads_to": ["MLOps"]
+    },
+    "AWS": {
+      "category": "Cloud",
+      "prerequisites": [],
+      "related": ["Azure", "Google Cloud Platform", "Docker"],
+      "leads_to": ["MLOps"]
+    },
+    "Azure": {
+      "category": "Cloud",
+      "prerequisites": [],
+      "related": ["AWS", "Google Cloud Platform"],
+      "leads_to": []
+    },
+    "Google Cloud Platform": {
+      "category": "Cloud",
+      "prerequisites": [],
+      "related": ["AWS", "Azure"],
+      "leads_to": []
+    },
+    "MLOps": {
+      "category": "DevOps",
+      "prerequisites": ["Docker", "Machine Learning", "CI/CD"],
+      "related": ["Docker", "Kubernetes", "MLflow"],
+      "leads_to": []
+    },
+    "CI/CD": {
+      "category": "DevOps",
+      "prerequisites": ["Git"],
+      "related": ["Docker", "GitHub Actions", "MLOps"],
+      "leads_to": ["MLOps"]
+    },
+    "Apache Spark": {
+      "category": "Big Data",
+      "prerequisites": ["Python", "SQL"],
+      "related": ["Data Engineering", "Big Data"],
+      "leads_to": []
+    },
+    "JavaScript": {
+      "category": "Programming Language",
+      "prerequisites": [],
+      "related": ["TypeScript", "React", "Node.js"],
+      "leads_to": []
+    },
+    "Google Colab": {
+      "category": "Development Environment",
+      "prerequisites": ["Python"],
+      "related": ["Jupyter Notebook", "PyTorch", "Kaggle"],
+      "leads_to": ["Kaggle"]
+    },
+    "Jupyter Notebook": {
+      "category": "Development Environment",
+      "prerequisites": ["Python"],
+      "related": ["Google Colab", "Pandas", "Matplotlib"],
+      "leads_to": []
+    },
+    "Kaggle": {
+      "category": "ML Platform",
+      "prerequisites": ["Python", "Machine Learning", "Pandas"],
+      "related": ["Google Colab", "Scikit-learn", "Data Preprocessing"],
+      "leads_to": []
+    },
+    "Data Structures": {
+      "category": "Computer Science Fundamentals",
+      "prerequisites": ["Python"],
+      "related": ["System Design", "C/C++"],
+      "leads_to": []
+    },
+    "LaTeX": {
+      "category": "Documentation",
+      "prerequisites": [],
+      "related": ["Overleaf"],
+      "leads_to": []
+    },
+    "Overleaf": {
+      "category": "Documentation",
+      "prerequisites": ["LaTeX"],
+      "related": ["LaTeX"],
+      "leads_to": []
+    },
+    "AI-assisted Coding": {
+      "category": "Development Tool",
+      "prerequisites": ["Python"],
+      "related": ["LLM", "Prompt Engineering"],
+      "leads_to": []
+    }
+  },
+  "skill_clusters": {
+    "Generative AI Stack": ["LLM", "RAG", "Prompt Engineering", "Fine-tuning", "Hugging Face Transformers", "vLLM", "ChromaDB"],
+    "ML Frameworks": ["PyTorch", "TensorFlow", "Scikit-learn"],
+    "Data Science Stack": ["Pandas", "NumPy", "Matplotlib", "Data Preprocessing", "Model Evaluation"],
+    "DevOps Stack": ["Docker", "Kubernetes", "CI/CD", "MLOps"],
+    "Cloud Platforms": ["AWS", "Azure", "Google Cloud Platform"],
+    "AI Domains": ["Computer Vision", "Natural Language Processing", "Deep Learning", "Machine Learning"],
+    "Web Development": ["FastAPI", "Streamlit", "REST API"],
+    "Development Tools": ["Git", "GitHub", "Google Colab", "Jupyter Notebook", "Kaggle", "AI-assisted Coding"]
+  }
+}

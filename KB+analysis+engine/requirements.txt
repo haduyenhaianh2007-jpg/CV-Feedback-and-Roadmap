@@ -1,0 +1,22 @@
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine learning & similarity
+scikit-learn>=1.3.0
+
+# Vector database
+chromadb>=0.4.0
+
+# Embedding models
+sentence-transformers>=2.2.0
+
+# HTTP client
+requests>=2.31.0
+
+# Excel support
+openpyxl>=3.1.0
+
+# Optional: for better performance
+# torch>=2.0.0
+# transformers>=4.30.0
