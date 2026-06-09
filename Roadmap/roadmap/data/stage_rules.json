@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "description": "Heuristic rules for career stage detection",
+  "stages": ["Student", "Fresher", "Junior", "Middle"],
+
+  "rules": {
+    "base_stage_by_experience": {
+      "0": "Student",
+      "0.5": "Fresher",
+      "1": "Junior",
+      "2": "Junior",
+      "3": "Middle",
+      "4": "Middle",
+      "5": "Middle"
+    },
+
+    "experience_thresholds": {
+      "Student": {"max_years": 0, "max_months": 6},
+      "Fresher": {"min_years": 0, "max_years": 1},
+      "Junior": {"min_years": 1, "max_years": 3},
+      "Middle": {"min_years": 3, "max_years": 6}
+    },
+
+    "skill_depth_adjustments": {
+      "advanced_skills": [
+        "LLM", "RAG", "LangChain", "Kubernetes", "Docker",
+        "MLOps", "Distributed Training", "System Design"
+      ],
+      "adjustment_rules": [
+        {
+          "condition": "advanced_skill_count >= 3",
+          "adjustment": "+1 level",
+          "reason": "Strong technical depth indicates higher stage"
+        },
+        {
+          "condition": "advanced_skill_count >= 5",
+          "adjustment": "+2 levels",
+          "reason": "Expert-level skill coverage"
+        }
+      ]
+    },
+
+    "job_title_keywords": {
+      "Student": ["intern", "student", "trainee"],
+      "Fresher": ["fresher", "graduate", "entry"],
+      "Junior": ["junior", "associate"],
+      "Middle": ["mid", "senior", "lead"]
+    },
+
+    "education_signals": {
+      "currently_studying": {
+        "indicators": ["đang học", "sinh viên", "student", "expected graduation"],
+        "stage": "Student"
+      },
+      "recent_graduate": {
+        "indicators": ["tốt nghiệp", "graduated", "new graduate"],
+        "stage": "Fresher",
+        "max_years_since": 1
+      }
+    }
+  },
+
+  "confidence_calculation": {
+    "base_confidence": 0.7,
+    "boosters": [
+      {"signal": "clear_experience_years", "boost": 0.1},
+      {"signal": "multiple_job_titles", "boost": 0.05},
+      {"signal": "skill_depth_matches_stage", "boost": 0.1}
+    ],
+    "reducers": [
+      {"signal": "conflicting_signals", "reduce": 0.15},
+      {"signal": "missing_work_history", "reduce": 0.2}
+    ]
+  }
+}

@@ -1,0 +1,932 @@
+{
+  "master_graph": {
+    "nodes": [
+      {
+        "id": "Python",
+        "category": "Programming Language"
+      },
+      {
+        "id": "LLM",
+        "category": "Generative AI"
+      },
+      {
+        "id": "RAG",
+        "category": "Generative AI"
+      },
+      {
+        "id": "Computer Vision",
+        "category": "AI Domain"
+      },
+      {
+        "id": "Machine Learning",
+        "category": "AI/ML"
+      },
+      {
+        "id": "Prompt Engineering",
+        "category": "Generative AI"
+      },
+      {
+        "id": "JavaScript",
+        "category": "Programming Language"
+      },
+      {
+        "id": "AWS",
+        "category": "Cloud"
+      },
+      {
+        "id": "Azure",
+        "category": "Cloud"
+      },
+      {
+        "id": "Fine-tuning",
+        "category": "Generative AI"
+      },
+      {
+        "id": "PyTorch",
+        "category": "ML Framework"
+      },
+      {
+        "id": "SQL",
+        "category": "Database"
+      },
+      {
+        "id": "Deep Learning",
+        "category": "AI/ML"
+      },
+      {
+        "id": "Docker",
+        "category": "DevOps"
+      },
+      {
+        "id": "Scikit-learn",
+        "category": "ML Library"
+      },
+      {
+        "id": "Apache Spark",
+        "category": "Big Data"
+      },
+      {
+        "id": "CI/CD",
+        "category": "DevOps"
+      },
+      {
+        "id": "Git",
+        "category": "Version Control"
+      },
+      {
+        "id": "Kubernetes",
+        "category": "DevOps"
+      },
+      {
+        "id": "Pandas",
+        "category": "Data Processing"
+      },
+      {
+        "id": "REST API",
+        "category": "Web"
+      }
+    ],
+    "edges": [
+      {
+        "from": "Python",
+        "to": "Git",
+        "type": "related"
+      },
+      {
+        "from": "Python",
+        "to": "SQL",
+        "type": "related"
+      },
+      {
+        "from": "Python",
+        "to": "Machine Learning",
+        "type": "related"
+      },
+      {
+        "from": "Python",
+        "to": "Pandas",
+        "type": "related"
+      },
+      {
+        "from": "Deep Learning",
+        "to": "LLM",
+        "type": "prerequisite"
+      },
+      {
+        "from": "LLM",
+        "to": "RAG",
+        "type": "related"
+      },
+      {
+        "from": "LLM",
+        "to": "Prompt Engineering",
+        "type": "related"
+      },
+      {
+        "from": "LLM",
+        "to": "Fine-tuning",
+        "type": "related"
+      },
+      {
+        "from": "LLM",
+        "to": "RAG",
+        "type": "prerequisite"
+      },
+      {
+        "from": "SQL",
+        "to": "RAG",
+        "type": "prerequisite"
+      },
+      {
+        "from": "RAG",
+        "to": "LLM",
+        "type": "related"
+      },
+      {
+        "from": "RAG",
+        "to": "Prompt Engineering",
+        "type": "related"
+      },
+      {
+        "from": "Deep Learning",
+        "to": "Computer Vision",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Python",
+        "to": "Computer Vision",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Computer Vision",
+        "to": "PyTorch",
+        "type": "related"
+      },
+      {
+        "from": "Python",
+        "to": "Machine Learning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "SQL",
+        "to": "Machine Learning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Pandas",
+        "to": "Machine Learning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Machine Learning",
+        "to": "Scikit-learn",
+        "type": "related"
+      },
+      {
+        "from": "LLM",
+        "to": "Prompt Engineering",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Prompt Engineering",
+        "to": "RAG",
+        "type": "related"
+      },
+      {
+        "from": "Prompt Engineering",
+        "to": "LLM",
+        "type": "related"
+      },
+      {
+        "from": "JavaScript",
+        "to": "TypeScript",
+        "type": "related"
+      },
+      {
+        "from": "JavaScript",
+        "to": "React",
+        "type": "related"
+      },
+      {
+        "from": "AWS",
+        "to": "Azure",
+        "type": "related"
+      },
+      {
+        "from": "AWS",
+        "to": "Docker",
+        "type": "related"
+      },
+      {
+        "from": "Azure",
+        "to": "AWS",
+        "type": "related"
+      },
+      {
+        "from": "LLM",
+        "to": "Fine-tuning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "PyTorch",
+        "to": "Fine-tuning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Fine-tuning",
+        "to": "LLM",
+        "type": "related"
+      },
+      {
+        "from": "Fine-tuning",
+        "to": "PyTorch",
+        "type": "related"
+      },
+      {
+        "from": "Python",
+        "to": "PyTorch",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Machine Learning",
+        "to": "PyTorch",
+        "type": "prerequisite"
+      },
+      {
+        "from": "PyTorch",
+        "to": "Deep Learning",
+        "type": "related"
+      },
+      {
+        "from": "SQL",
+        "to": "Python",
+        "type": "related"
+      },
+      {
+        "from": "SQL",
+        "to": "Pandas",
+        "type": "related"
+      },
+      {
+        "from": "SQL",
+        "to": "PostgreSQL",
+        "type": "related"
+      },
+      {
+        "from": "Machine Learning",
+        "to": "Deep Learning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Python",
+        "to": "Deep Learning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Deep Learning",
+        "to": "Computer Vision",
+        "type": "related"
+      },
+      {
+        "from": "Deep Learning",
+        "to": "PyTorch",
+        "type": "related"
+      },
+      {
+        "from": "Docker",
+        "to": "Kubernetes",
+        "type": "related"
+      },
+      {
+        "from": "Docker",
+        "to": "CI/CD",
+        "type": "related"
+      },
+      {
+        "from": "Python",
+        "to": "Scikit-learn",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Machine Learning",
+        "to": "Scikit-learn",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Scikit-learn",
+        "to": "Pandas",
+        "type": "related"
+      },
+      {
+        "from": "Python",
+        "to": "Apache Spark",
+        "type": "prerequisite"
+      },
+      {
+        "from": "SQL",
+        "to": "Apache Spark",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Git",
+        "to": "CI/CD",
+        "type": "prerequisite"
+      },
+      {
+        "from": "CI/CD",
+        "to": "Docker",
+        "type": "related"
+      },
+      {
+        "from": "Git",
+        "to": "CI/CD",
+        "type": "related"
+      },
+      {
+        "from": "Docker",
+        "to": "Kubernetes",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Kubernetes",
+        "to": "Docker",
+        "type": "related"
+      },
+      {
+        "from": "Kubernetes",
+        "to": "CI/CD",
+        "type": "related"
+      },
+      {
+        "from": "Python",
+        "to": "Pandas",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Python",
+        "to": "REST API",
+        "type": "prerequisite"
+      },
+      {
+        "from": "REST API",
+        "to": "Docker",
+        "type": "related"
+      }
+    ]
+  },
+  "user_overlay": {
+    "completed": [
+      "Python",
+      "LLM",
+      "RAG",
+      "Computer Vision",
+      "Prompt Engineering",
+      "PyTorch",
+      "Scikit-learn",
+      "Pandas",
+      "Git"
+    ],
+    "partial": [
+      "Machine Learning",
+      "Fine-tuning",
+      "Deep Learning",
+      "Apache Spark",
+      "CI/CD",
+      "REST API"
+    ],
+    "missing": [
+      "JavaScript",
+      "AWS",
+      "Agile",
+      "Azure",
+      "CSS",
+      "HTML",
+      "SQL",
+      "Scrum",
+      "Docker",
+      "Java",
+      "System Design",
+      "Angular",
+      "C#",
+      "Cassandra",
+      "Elasticsearch",
+      "Excel",
+      "Go",
+      "Jira",
+      "Kubernetes",
+      "Microservices",
+      "MongoDB",
+      "PostgreSQL",
+      "React",
+      "Scala",
+      "TypeScript"
+    ],
+    "recommended_next": [
+      "AI Agent",
+      "Machine Learning",
+      "Fine-tuning",
+      "GitHub",
+      "vLLM"
+    ]
+  },
+  "phases": [
+    {
+      "phase_id": 3,
+      "title": "Kỹ năng nâng cao",
+      "skills": [
+        "Machine Learning"
+      ],
+      "duration_weeks": 12,
+      "expected_ats": 49
+    },
+    {
+      "phase_id": 4,
+      "title": "Production-ready",
+      "skills": [
+        "TensorFlow",
+        "Machine Learning",
+        "Docker"
+      ],
+      "duration_weeks": 8,
+      "expected_ats": 50
+    }
+  ],
+  "skill_trees": [
+    {
+      "phase_id": 3,
+      "trees": [
+        {
+          "root": "Machine Learning",
+          "children": [
+            "Deep Learning",
+            "PyTorch",
+            "TensorFlow",
+            "MLOps",
+            "Scikit-learn",
+            "Model Evaluation"
+          ]
+        }
+      ]
+    },
+    {
+      "phase_id": 4,
+      "trees": [
+        {
+          "root": "TensorFlow",
+          "children": [
+            "Computer Vision",
+            "Natural Language Processing"
+          ]
+        },
+        {
+          "root": "Machine Learning",
+          "children": [
+            "Deep Learning",
+            "PyTorch",
+            "TensorFlow",
+            "MLOps",
+            "Scikit-learn",
+            "Model Evaluation"
+          ]
+        },
+        {
+          "root": "Docker",
+          "children": [
+            "Kubernetes",
+            "MLOps"
+          ]
+        }
+      ]
+    }
+  ],
+  "prerequisite_paths": [
+    {
+      "target_skill": "React",
+      "path": [
+        "React"
+      ]
+    },
+    {
+      "target_skill": "Agile",
+      "path": [
+        "Agile"
+      ]
+    },
+    {
+      "target_skill": "Excel",
+      "path": [
+        "Excel"
+      ]
+    },
+    {
+      "target_skill": "Deep Learning",
+      "path": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning"
+      ]
+    },
+    {
+      "target_skill": "Jira",
+      "path": [
+        "Jira"
+      ]
+    },
+    {
+      "target_skill": "Docker",
+      "path": [
+        "Docker"
+      ]
+    },
+    {
+      "target_skill": "Java",
+      "path": [
+        "Java"
+      ]
+    },
+    {
+      "target_skill": "AWS",
+      "path": [
+        "AWS"
+      ]
+    },
+    {
+      "target_skill": "JavaScript",
+      "path": [
+        "JavaScript"
+      ]
+    },
+    {
+      "target_skill": "System Design",
+      "path": [
+        "System Design"
+      ]
+    },
+    {
+      "target_skill": "Elasticsearch",
+      "path": [
+        "Elasticsearch"
+      ]
+    },
+    {
+      "target_skill": "Scala",
+      "path": [
+        "Scala"
+      ]
+    },
+    {
+      "target_skill": "PostgreSQL",
+      "path": [
+        "PostgreSQL"
+      ]
+    },
+    {
+      "target_skill": "SQL",
+      "path": [
+        "SQL"
+      ]
+    },
+    {
+      "target_skill": "Angular",
+      "path": [
+        "Angular"
+      ]
+    },
+    {
+      "target_skill": "TypeScript",
+      "path": [
+        "TypeScript"
+      ]
+    },
+    {
+      "target_skill": "Fine-tuning",
+      "path": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "LLM",
+        "Fine-tuning"
+      ]
+    },
+    {
+      "target_skill": "Cassandra",
+      "path": [
+        "Cassandra"
+      ]
+    },
+    {
+      "target_skill": "CI/CD",
+      "path": [
+        "Git",
+        "CI/CD"
+      ]
+    },
+    {
+      "target_skill": "Kubernetes",
+      "path": [
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "target_skill": "Microservices",
+      "path": [
+        "Microservices"
+      ]
+    },
+    {
+      "target_skill": "MongoDB",
+      "path": [
+        "MongoDB"
+      ]
+    },
+    {
+      "target_skill": "Apache Spark",
+      "path": [
+        "Python",
+        "Apache Spark"
+      ]
+    },
+    {
+      "target_skill": "REST API",
+      "path": [
+        "Python",
+        "REST API"
+      ]
+    },
+    {
+      "target_skill": "HTML",
+      "path": [
+        "HTML"
+      ]
+    },
+    {
+      "target_skill": "CSS",
+      "path": [
+        "CSS"
+      ]
+    },
+    {
+      "target_skill": "Scrum",
+      "path": [
+        "Scrum"
+      ]
+    },
+    {
+      "target_skill": "Machine Learning",
+      "path": [
+        "Python",
+        "Machine Learning"
+      ]
+    },
+    {
+      "target_skill": "C#",
+      "path": [
+        "C#"
+      ]
+    },
+    {
+      "target_skill": "Azure",
+      "path": [
+        "Azure"
+      ]
+    },
+    {
+      "target_skill": "Go",
+      "path": [
+        "Go"
+      ]
+    }
+  ],
+  "market_insights": {
+    "Python": {
+      "frequency": 64.29,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 64% tin tuyển dụng AI Engineer"
+    },
+    "LLM": {
+      "frequency": 57.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 57% tin tuyển dụng AI Engineer"
+    },
+    "RAG": {
+      "frequency": 57.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 57% tin tuyển dụng AI Engineer"
+    },
+    "Computer Vision": {
+      "frequency": 50.0,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 50% tin tuyển dụng AI Engineer"
+    },
+    "Machine Learning": {
+      "frequency": 42.86,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 43% tin tuyển dụng AI Engineer"
+    },
+    "Prompt Engineering": {
+      "frequency": 35.71,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 36% tin tuyển dụng AI Engineer"
+    },
+    "JavaScript": {
+      "frequency": 28.57,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 29% tin tuyển dụng AI Engineer"
+    },
+    "AWS": {
+      "frequency": 21.43,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 21% tin tuyển dụng AI Engineer"
+    },
+    "Agile": {
+      "frequency": 21.43,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 21% tin tuyển dụng AI Engineer"
+    },
+    "Azure": {
+      "frequency": 21.43,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 21% tin tuyển dụng AI Engineer"
+    },
+    "CSS": {
+      "frequency": 21.43,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 21% tin tuyển dụng AI Engineer"
+    },
+    "Fine-tuning": {
+      "frequency": 21.43,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 21% tin tuyển dụng AI Engineer"
+    },
+    "HTML": {
+      "frequency": 21.43,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 21% tin tuyển dụng AI Engineer"
+    },
+    "PyTorch": {
+      "frequency": 21.43,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 21% tin tuyển dụng AI Engineer"
+    },
+    "SQL": {
+      "frequency": 21.43,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 21% tin tuyển dụng AI Engineer"
+    },
+    "Scrum": {
+      "frequency": 21.43,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 21% tin tuyển dụng AI Engineer"
+    },
+    "Deep Learning": {
+      "frequency": 14.29,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 14% tin tuyển dụng AI Engineer"
+    },
+    "Docker": {
+      "frequency": 14.29,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 14% tin tuyển dụng AI Engineer"
+    },
+    "Java": {
+      "frequency": 14.29,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 14% tin tuyển dụng AI Engineer"
+    },
+    "Scikit-learn": {
+      "frequency": 14.29,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 14% tin tuyển dụng AI Engineer"
+    },
+    "System Design": {
+      "frequency": 14.29,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 14% tin tuyển dụng AI Engineer"
+    },
+    "Angular": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "Apache Spark": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "C#": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "CI/CD": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "Cassandra": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "Elasticsearch": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "Excel": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "Git": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "Go": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "Jira": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "Kubernetes": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "Microservices": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "MongoDB": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "Pandas": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "PostgreSQL": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "REST API": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "React": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "Scala": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    },
+    "TypeScript": {
+      "frequency": 7.14,
+      "priority": "Low",
+      "reason": "Xuất hiện trong 7% tin tuyển dụng AI Engineer"
+    }
+  },
+  "ats_projection": {
+    "current": 43,
+    "final": 50,
+    "by_phase": [
+      {
+        "phase": 1,
+        "score": 49
+      },
+      {
+        "phase": 2,
+        "score": 50
+      }
+    ]
+  },
+  "project_mapping": {
+    "3": {
+      "name": "Customer Churn Prediction",
+      "skills_used": [
+        "SQL",
+        "Machine Learning"
+      ],
+      "difficulty": "Beginner"
+    }
+  },
+  "metadata": {
+    "target_role": "AI Engineer",
+    "stage": "Student",
+    "confidence": 0.6
+  }
+}

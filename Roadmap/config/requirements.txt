@@ -1,0 +1,2 @@
+# No external dependencies required - pure Python
+# Python 3.8+ is sufficient

@@ -1,0 +1,268 @@
+{
+  "version": "1.0.0",
+  "description": "Template projects for AI Engineer roadmap",
+
+  "projects": {
+    "Customer Churn Prediction": {
+      "name": "Customer Churn Prediction",
+      "difficulty": "Beginner",
+      "primary_skills": ["SQL", "Machine Learning"],
+      "tech_stack": ["Python", "SQL", "Scikit-learn", "Pandas"],
+      "deliverables": [
+        "Notebook EDA trên dataset thật (Kaggle Telco Churn)",
+        "Train 3 model khác nhau (Logistic Regression, Random Forest, XGBoost)",
+        "Model đạt >80% accuracy",
+        "Deploy lên Streamlit với UI đơn giản"
+      ],
+      "learning_outcomes": [
+        "SQL queries phức tạp (JOIN, GROUP BY, window functions)",
+        "Feature engineering cơ bản",
+        "Model evaluation metrics (accuracy, precision, recall)",
+        "Basic deployment với Streamlit"
+      ],
+      "estimated_hours": 40,
+      "suitable_stages": ["Student", "Fresher"]
+    },
+
+    "Text Classification with PyTorch": {
+      "name": "Text Classification with PyTorch",
+      "difficulty": "Intermediate",
+      "primary_skills": ["Deep Learning", "Natural Language Processing"],
+      "tech_stack": ["PyTorch", "Transformers", "HuggingFace"],
+      "deliverables": [
+        "CNN baseline cho text classification",
+        "LSTM model với word embeddings",
+        "Fine-tune BERT nhỏ (distilbert)",
+        "So sánh performance 3 approaches"
+      ],
+      "learning_outcomes": [
+        "Hiểu backpropagation và gradient descent",
+        "Biết cách dùng PyTorch để build neural networks",
+        "Transfer learning với pre-trained models",
+        "Model evaluation cho NLP tasks"
+      ],
+      "estimated_hours": 60,
+      "suitable_stages": ["Fresher", "Junior"]
+    },
+
+    "Domain Q&A Chatbot": {
+      "name": "Domain Q&A Chatbot",
+      "difficulty": "Intermediate",
+      "primary_skills": ["LLM", "Prompt Engineering"],
+      "tech_stack": ["OpenAI API", "LangChain", "ChromaDB", "FastAPI"],
+      "deliverables": [
+        "RAG pipeline với corpus tiếng Việt (luật, y tế, hoặc giáo dục)",
+        "Prompt library cho 5 use cases khác nhau",
+        "Evaluation script (faithfulness score, relevance score)",
+        "REST API endpoint"
+      ],
+      "learning_outcomes": [
+        "Hiểu attention mechanism cơ bản",
+        "So sánh zero-shot vs few-shot vs chain-of-thought",
+        "Vector database và semantic search",
+        "Prompt engineering best practices"
+      ],
+      "estimated_hours": 70,
+      "suitable_stages": ["Fresher", "Junior"]
+    },
+
+    "AI Knowledge Assistant": {
+      "name": "AI Knowledge Assistant",
+      "difficulty": "Advanced",
+      "primary_skills": ["RAG", "Docker", "AI Agent"],
+      "tech_stack": ["LangGraph", "Docker", "FastAPI", "ChromaDB", "OpenAI API"],
+      "deliverables": [
+        "Agent có tool-calling (search, calculator, API calls)",
+        "Deploy containerized trên cloud free tier (Railway/Render)",
+        "CI/CD pipeline với GitHub Actions",
+        "Documentation đầy đủ (README, API docs)"
+      ],
+      "learning_outcomes": [
+        "Build production-ready AI application",
+        "Containerization với Docker",
+        "CI/CD basics",
+        "Agent architecture và tool-calling patterns"
+      ],
+      "estimated_hours": 50,
+      "suitable_stages": ["Junior", "Middle"]
+    },
+
+    "Sales Forecasting System": {
+      "name": "Sales Forecasting System",
+      "difficulty": "Beginner",
+      "primary_skills": ["SQL", "Machine Learning"],
+      "tech_stack": ["Python", "SQL", "Scikit-learn", "Time Series Analysis"],
+      "deliverables": [
+        "SQL pipeline để extract sales data",
+        "Time series forecasting với ARIMA/Prophet",
+        "Dashboard visualization (Plotly/Streamlit)",
+        "Report với insights cho business"
+      ],
+      "learning_outcomes": [
+        "SQL cho analytics (complex queries, aggregations)",
+        "Time series forecasting cơ bản",
+        "Business intelligence và reporting",
+        "Data visualization"
+      ],
+      "estimated_hours": 45,
+      "suitable_stages": ["Student", "Fresher"]
+    },
+
+    "Image Classification Pipeline": {
+      "name": "Image Classification Pipeline",
+      "difficulty": "Intermediate",
+      "primary_skills": ["Deep Learning", "Computer Vision"],
+      "tech_stack": ["PyTorch", "OpenCV", "TorchVision", "MLflow"],
+      "deliverables": [
+        "Data pipeline với augmentation",
+        "CNN model training với transfer learning",
+        "Experiment tracking với MLflow",
+        "Model serving với FastAPI"
+      ],
+      "learning_outcomes": [
+        "Data augmentation techniques",
+        "Transfer learning strategies",
+        "Experiment management và tracking",
+        "Model serving basics"
+      ],
+      "estimated_hours": 55,
+      "suitable_stages": ["Fresher", "Junior"]
+    },
+
+    "Recommendation System": {
+      "name": "Recommendation System",
+      "difficulty": "Intermediate",
+      "primary_skills": ["Machine Learning", "SQL"],
+      "tech_stack": ["Python", "SQL", "Scikit-learn", "Surprise Library"],
+      "deliverables": [
+        "Collaborative filtering với matrix factorization",
+        "Content-based filtering",
+        "Hybrid approach",
+        "A/B testing framework"
+      ],
+      "learning_outcomes": [
+        "Recommendation algorithms",
+        "Similarity metrics",
+        "Cold start problem solutions",
+        "Evaluation metrics cho recommendations"
+      ],
+      "estimated_hours": 50,
+      "suitable_stages": ["Fresher", "Junior"]
+    },
+
+    "MLOps Pipeline": {
+      "name": "MLOps Pipeline",
+      "difficulty": "Advanced",
+      "primary_skills": ["Docker", "MLOps", "CI/CD"],
+      "tech_stack": ["Docker", "GitHub Actions", "MLflow", "AWS/GCP", "Kubernetes"],
+      "deliverables": [
+        "End-to-end ML pipeline (data → train → deploy)",
+        "Automated testing cho ML code",
+        "Model versioning và registry",
+        "Monitoring dashboard"
+      ],
+      "learning_outcomes": [
+        "CI/CD cho ML projects",
+        "Container orchestration",
+        "Model lifecycle management",
+        "Infrastructure as Code basics"
+      ],
+      "estimated_hours": 80,
+      "suitable_stages": ["Junior", "Middle"]
+    },
+
+    "Fine-tuning LLM on Custom Dataset": {
+      "name": "Fine-tuning LLM on Custom Dataset",
+      "difficulty": "Advanced",
+      "primary_skills": ["LLM", "Fine-tuning"],
+      "tech_stack": ["Transformers", "PEFT", "LoRA", "Weights & Biases"],
+      "deliverables": [
+        "Dataset preparation và cleaning",
+        "Fine-tune Llama/Mistral với LoRA",
+        "Evaluation suite (perplexity, task-specific metrics)",
+        "Model hosting trên HuggingFace Hub"
+      ],
+      "learning_outcomes": [
+        "Parameter-efficient fine-tuning (PEFT)",
+        "Dataset curation strategies",
+        "Model evaluation cho LLMs",
+        "Model sharing và deployment"
+      ],
+      "estimated_hours": 65,
+      "suitable_stages": ["Junior", "Middle"]
+    },
+
+    "Real-time Analytics Dashboard": {
+      "name": "Real-time Analytics Dashboard",
+      "difficulty": "Intermediate",
+      "primary_skills": ["SQL", "Docker", "JavaScript"],
+      "tech_stack": ["PostgreSQL", "Docker", "React", "D3.js", "WebSocket"],
+      "deliverables": [
+        "Streaming data pipeline",
+        "Real-time dashboard với D3.js",
+        "Interactive filters và drill-downs",
+        "Export to PDF/CSV"
+      ],
+      "learning_outcomes": [
+        "Streaming data processing",
+        "Frontend development basics",
+        "Real-time data visualization",
+        "Full-stack development"
+      ],
+      "estimated_hours": 60,
+      "suitable_stages": ["Fresher", "Junior"]
+    },
+
+    "Sentiment Analysis API": {
+      "name": "Sentiment Analysis API",
+      "difficulty": "Beginner",
+      "primary_skills": ["Natural Language Processing", "FastAPI"],
+      "tech_stack": ["Python", "FastAPI", "Transformers", "Docker"],
+      "deliverables": [
+        "Pre-trained sentiment model integration",
+        "REST API với FastAPI",
+        "Batch processing endpoint",
+        "Docker deployment"
+      ],
+      "learning_outcomes": [
+        "NLP với Transformers",
+        "API development",
+        "Async processing",
+        "Containerization basics"
+      ],
+      "estimated_hours": 35,
+      "suitable_stages": ["Student", "Fresher"]
+    },
+
+    "AI-Powered Resume Screener": {
+      "name": "AI-Powered Resume Screener",
+      "difficulty": "Advanced",
+      "primary_skills": ["LLM", "RAG", "Docker"],
+      "tech_stack": ["LangChain", "OpenAI API", "ChromaDB", "FastAPI", "Docker"],
+      "deliverables": [
+        "Resume parsing pipeline",
+        "RAG-based matching với JD",
+        "Scoring algorithm",
+        "Web interface cho HR team"
+      ],
+      "learning_outcomes": [
+        "Document processing",
+        "Semantic matching",
+        "Production AI systems",
+        "Full-stack AI application"
+      ],
+      "estimated_hours": 75,
+      "suitable_stages": ["Junior", "Middle"]
+    }
+  },
+
+  "selection_strategy": {
+    "match_threshold": 0.5,
+    "difficulty_mapping": {
+      "Student": ["Beginner"],
+      "Fresher": ["Beginner", "Intermediate"],
+      "Junior": ["Intermediate", "Advanced"],
+      "Middle": ["Advanced"]
+    }
+  }
+}

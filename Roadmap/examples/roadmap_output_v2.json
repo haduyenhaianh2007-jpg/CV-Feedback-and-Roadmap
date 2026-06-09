@@ -1,0 +1,436 @@
+{
+  "pruned_graph": {
+    "nodes": [
+      {
+        "id": "Python",
+        "type": "skill"
+      },
+      {
+        "id": "LLM",
+        "type": "skill"
+      },
+      {
+        "id": "RAG",
+        "type": "skill"
+      },
+      {
+        "id": "Computer Vision",
+        "type": "skill"
+      },
+      {
+        "id": "Machine Learning",
+        "type": "skill"
+      },
+      {
+        "id": "HTML",
+        "type": "skill"
+      },
+      {
+        "id": "PyTorch",
+        "type": "skill"
+      },
+      {
+        "id": "SQL",
+        "type": "skill"
+      },
+      {
+        "id": "Deep Learning",
+        "type": "skill"
+      },
+      {
+        "id": "Pandas",
+        "type": "skill"
+      }
+    ],
+    "edges": [
+      {
+        "from": "Deep Learning",
+        "to": "LLM",
+        "type": "prerequisite"
+      },
+      {
+        "from": "LLM",
+        "to": "RAG",
+        "type": "prerequisite"
+      },
+      {
+        "from": "SQL",
+        "to": "RAG",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Deep Learning",
+        "to": "Computer Vision",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Python",
+        "to": "Computer Vision",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Python",
+        "to": "Machine Learning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "SQL",
+        "to": "Machine Learning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Pandas",
+        "to": "Machine Learning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Python",
+        "to": "PyTorch",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Machine Learning",
+        "to": "PyTorch",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Machine Learning",
+        "to": "Deep Learning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Python",
+        "to": "Deep Learning",
+        "type": "prerequisite"
+      },
+      {
+        "from": "Python",
+        "to": "Pandas",
+        "type": "prerequisite"
+      }
+    ]
+  },
+  "phases": [
+    {
+      "phase_id": 1,
+      "title": "Nền tảng cơ bản",
+      "skills": [
+        "Python"
+      ],
+      "skill_count": 1,
+      "avg_depth": 0.0,
+      "reason": "Kiến thức nền tảng, 1 kỹ năng cơ bản"
+    },
+    {
+      "phase_id": 2,
+      "title": "Kỹ năng cốt lõi",
+      "skills": [
+        "HTML",
+        "PyTorch",
+        "SQL",
+        "Deep Learning",
+        "Pandas",
+        "LLM",
+        "RAG",
+        "Computer Vision",
+        "Machine Learning"
+      ],
+      "skill_count": 9,
+      "avg_depth": 0.0,
+      "reason": "Kiến thức nền tảng, 9 kỹ năng cơ bản"
+    }
+  ],
+  "ats_report": {
+    "current_score": 0,
+    "final_score": 60,
+    "phase_contributions": [
+      {
+        "phase_id": 1,
+        "score": 20,
+        "delta": 20
+      },
+      {
+        "phase_id": 2,
+        "score": 60,
+        "delta": 40
+      }
+    ],
+    "bottlenecks": [
+      "Python",
+      "LLM",
+      "RAG"
+    ],
+    "penalties": [
+      {
+        "skill": "LLM",
+        "missing_prerequisites": [
+          "Deep Learning",
+          "Natural Language Processing",
+          "Hugging Face Transformers",
+          "Machine Learning",
+          "Python",
+          "NumPy",
+          "Python",
+          "Machine Learning",
+          "Python",
+          "PyTorch",
+          "Python",
+          "SQL",
+          "Pandas",
+          "NumPy"
+        ],
+        "penalty": 0.5
+      },
+      {
+        "skill": "RAG",
+        "missing_prerequisites": [
+          "LLM",
+          "SQL",
+          "Natural Language Processing",
+          "Deep Learning",
+          "Natural Language Processing",
+          "Hugging Face Transformers",
+          "Deep Learning",
+          "Python",
+          "Machine Learning",
+          "Machine Learning",
+          "Python",
+          "NumPy",
+          "Python",
+          "PyTorch",
+          "Pandas",
+          "NumPy"
+        ],
+        "penalty": 0.5
+      },
+      {
+        "skill": "Computer Vision",
+        "missing_prerequisites": [
+          "Deep Learning",
+          "Python",
+          "NumPy",
+          "Machine Learning",
+          "Python",
+          "NumPy",
+          "SQL",
+          "Pandas"
+        ],
+        "penalty": 0.5
+      },
+      {
+        "skill": "Machine Learning",
+        "missing_prerequisites": [
+          "Python",
+          "SQL",
+          "Pandas",
+          "NumPy"
+        ],
+        "penalty": 0.5
+      },
+      {
+        "skill": "Prompt Engineering",
+        "missing_prerequisites": [
+          "LLM",
+          "Deep Learning",
+          "Natural Language Processing",
+          "Hugging Face Transformers",
+          "Machine Learning",
+          "Python",
+          "NumPy",
+          "Python",
+          "Machine Learning",
+          "Python",
+          "PyTorch",
+          "Python",
+          "SQL",
+          "Pandas",
+          "NumPy"
+        ],
+        "penalty": 0.5
+      },
+      {
+        "skill": "Fine-tuning",
+        "missing_prerequisites": [
+          "LLM",
+          "PyTorch",
+          "Hugging Face Transformers",
+          "Deep Learning",
+          "Natural Language Processing",
+          "Hugging Face Transformers",
+          "Python",
+          "Machine Learning",
+          "NumPy",
+          "Python",
+          "Natural Language Processing",
+          "Machine Learning",
+          "Python",
+          "NumPy",
+          "Python",
+          "Machine Learning",
+          "SQL",
+          "Pandas",
+          "NumPy"
+        ],
+        "penalty": 0.5
+      },
+      {
+        "skill": "PyTorch",
+        "missing_prerequisites": [
+          "Python",
+          "Machine Learning",
+          "NumPy",
+          "SQL",
+          "Pandas",
+          "NumPy"
+        ],
+        "penalty": 0.5
+      },
+      {
+        "skill": "Deep Learning",
+        "missing_prerequisites": [
+          "Machine Learning",
+          "Python",
+          "NumPy",
+          "Python",
+          "SQL",
+          "Pandas",
+          "NumPy"
+        ],
+        "penalty": 0.5
+      },
+      {
+        "skill": "Scikit-learn",
+        "missing_prerequisites": [
+          "Python",
+          "Machine Learning",
+          "NumPy",
+          "SQL",
+          "Pandas",
+          "NumPy"
+        ],
+        "penalty": 0.5
+      },
+      {
+        "skill": "Apache Spark",
+        "missing_prerequisites": [
+          "Python",
+          "SQL"
+        ],
+        "penalty": 0.3
+      },
+      {
+        "skill": "CI/CD",
+        "missing_prerequisites": [
+          "Git"
+        ],
+        "penalty": 0.15
+      },
+      {
+        "skill": "Kubernetes",
+        "missing_prerequisites": [
+          "Docker"
+        ],
+        "penalty": 0.15
+      },
+      {
+        "skill": "Pandas",
+        "missing_prerequisites": [
+          "Python"
+        ],
+        "penalty": 0.15
+      },
+      {
+        "skill": "REST API",
+        "missing_prerequisites": [
+          "Python",
+          "FastAPI"
+        ],
+        "penalty": 0.3
+      }
+    ]
+  },
+  "user_overlay": {
+    "completed": [],
+    "partial": [],
+    "missing": [
+      "Python",
+      "LLM",
+      "RAG",
+      "Computer Vision"
+    ],
+    "total_completed": 0,
+    "total_partial": 0,
+    "total_missing": 4
+  },
+  "project_mapping": {},
+  "metadata": {
+    "target_role": "AI Engineer",
+    "stage": "Student",
+    "confidence": 0.5,
+    "pruning_stats": {
+      "original_nodes": 40,
+      "pruned_nodes": 10,
+      "removed_nodes_count": 24,
+      "reduction_ratio": 0.75,
+      "kept_by_relevance": 16,
+      "kept_by_dependency": 2
+    }
+  },
+  "narrative": {
+    "phase_narratives": [
+      {
+        "phase_id": 1,
+        "narrative": "Phase 1 - Nền tảng cơ bản: Đây là những kiến thức nền tảng, bạn sẽ làm quen với 1 kỹ năng cơ bản: Python. Hoàn thành phase này giúp bạn có nền tảng vững chắc để tiếp cận các chủ đề nâng cao hơn.",
+        "detail": {
+          "skill_count": 1,
+          "avg_depth": 0.0,
+          "reason": "Kiến thức nền tảng, 1 kỹ năng cơ bản"
+        }
+      },
+      {
+        "phase_id": 2,
+        "narrative": "Phase 2 - Kỹ năng cốt lõi: Đây là những kiến thức nền tảng, bạn sẽ làm quen với 9 kỹ năng cơ bản: HTML, PyTorch, SQL, Deep Learning, Pandas, LLM, RAG, Computer Vision, Machine Learning. Hoàn thành phase này giúp bạn có nền tảng vững chắc để tiếp cận các chủ đề nâng cao hơn.",
+        "detail": {
+          "skill_count": 9,
+          "avg_depth": 0.0,
+          "reason": "Kiến thức nền tảng, 9 kỹ năng cơ bản"
+        }
+      }
+    ],
+    "personalized_story": {
+      "summary": "Chào bạn! bạn đang là sinh viên. Bạn đang nhắm đến vị trí AI Engineer. Bạn đang bắt đầu từ đầu. Còn thiếu 4 kỹ năng quan trọng: Python, LLM, RAG.",
+      "focus": [
+        "Tập trung vào Python - đây là kỹ năng cốt lõi",
+        "Bắt đầu với Phase 1: Python"
+      ],
+      "advice": [
+        "Tận dụng thời gian ở trường để xây dựng portfolio",
+        "Tham gia các câu lạc bộ hoặc dự án open source",
+        "Nên ưu tiên học LLM và RAG vì đây là xu hướng thị trường"
+      ],
+      "strengths": [],
+      "top_missing": [
+        "Python",
+        "LLM",
+        "RAG"
+      ]
+    },
+    "ats_report": {
+      "report": "Bạn đạt 0% mức độ phù hợp cho vị trí AI Engineer - còn rất nhiều khoảng cách. Điểm nghẽn chính: Python, LLM, RAG. Bạn bị trừ 555% do thiếu các kỹ năng nền tảng. Sau khi hoàn thành roadmap, bạn có thể đạt 60% (tăng 60%).",
+      "weaknesses": [
+        "Python",
+        "LLM",
+        "RAG",
+        "Computer Vision",
+        "Machine Learning"
+      ],
+      "next_actions": [
+        "Tập trung vào Python - đây là kỹ năng quan trọng nhất còn thiếu",
+        "Hoàn thành Phase 2 để tăng 40% ATS"
+      ],
+      "current_score": 0,
+      "final_score": 60,
+      "improvement_delta": 60
+    }
+  }
+}
