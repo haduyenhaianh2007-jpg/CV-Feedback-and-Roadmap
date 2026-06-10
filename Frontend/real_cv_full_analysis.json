@@ -1,0 +1,551 @@
+{
+  "target_role": "AI Engineer",
+  "resume_skills_raw": [
+    "Python",
+    "C/C++",
+    "PyTorch",
+    "Scikit-learn",
+    "Hugging Face Transformers",
+    "NLP",
+    "Computer Vision",
+    "LLMs",
+    "RAG",
+    "Prompt Engineering",
+    "Model Evaluation",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "OpenCV",
+    "FastAPI",
+    "Streamlit",
+    "KARE",
+    "Data Preprocessing",
+    "AI-assisted Coding",
+    "Git",
+    "GitHub",
+    "Google Colab",
+    "Kaggle",
+    "Jupyter Notebook",
+    "LaTeX",
+    "Overleaf",
+    "Data Structures"
+  ],
+  "resume_skills_normalized": [
+    "Python",
+    "C/C++",
+    "PyTorch",
+    "Scikit-learn",
+    "Hugging Face Transformers",
+    "Natural Language Processing",
+    "Computer Vision",
+    "LLM",
+    "RAG",
+    "Prompt Engineering",
+    "Model Evaluation",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "OpenCV",
+    "FastAPI",
+    "Streamlit",
+    "Data Preprocessing",
+    "AI-assisted Coding",
+    "Git",
+    "GitHub",
+    "Google Colab",
+    "Kaggle",
+    "Jupyter Notebook",
+    "LaTeX",
+    "Overleaf",
+    "Data Structures"
+  ],
+  "unknown_skills": [
+    "KARE"
+  ],
+  "readiness_score": 43,
+  "readiness_breakdown": {
+    "owned_weight": 314.28,
+    "total_weight": 735.69,
+    "owned_skills_count": 9,
+    "total_skills_count": 40
+  },
+  "strengths": [
+    {
+      "skill": "Python",
+      "frequency": 64.29,
+      "level": "Core",
+      "category": "Programming Language",
+      "description": "General-purpose programming language widely used in AI/ML, data science, and backend development."
+    },
+    {
+      "skill": "LLM",
+      "frequency": 57.14,
+      "level": "Core",
+      "category": "AI Technology",
+      "description": "Large Language Models - neural networks trained on vast text corpora."
+    },
+    {
+      "skill": "RAG",
+      "frequency": 57.14,
+      "level": "Core",
+      "category": "AI Architecture",
+      "description": "Retrieval-Augmented Generation - combines retrieval with LLM generation."
+    },
+    {
+      "skill": "Computer Vision",
+      "frequency": 50.0,
+      "level": "Core",
+      "category": "Domain Knowledge",
+      "description": "Field of AI that enables machines to interpret visual data."
+    },
+    {
+      "skill": "Prompt Engineering",
+      "frequency": 35.71,
+      "level": "Important",
+      "category": "AI Skill",
+      "description": "Crafting effective inputs to get optimal outputs from LLMs."
+    },
+    {
+      "skill": "PyTorch",
+      "frequency": 21.43,
+      "level": "Important",
+      "category": "Deep Learning Framework",
+      "description": "Open-source machine learning framework developed by Meta AI Research."
+    },
+    {
+      "skill": "Scikit-learn",
+      "frequency": 14.29,
+      "level": "Bonus",
+      "category": "ML Library",
+      "description": "Python library for classical machine learning algorithms."
+    },
+    {
+      "skill": "Pandas",
+      "frequency": 7.14,
+      "level": "Bonus"
+    },
+    {
+      "skill": "Git",
+      "frequency": 7.14,
+      "level": "Bonus",
+      "category": "Version Control",
+      "description": "Distributed version control system for tracking code changes."
+    }
+  ],
+  "extra_skills": [
+    {
+      "skill": "C/C++",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "Hugging Face Transformers",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "Natural Language Processing",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "Model Evaluation",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "NumPy",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "Matplotlib",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "OpenCV",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "FastAPI",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "Streamlit",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "Data Preprocessing",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "AI-assisted Coding",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "GitHub",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "Google Colab",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "Kaggle",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "Jupyter Notebook",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "LaTeX",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "Overleaf",
+      "status": "extra_skill"
+    },
+    {
+      "skill": "Data Structures",
+      "status": "extra_skill"
+    }
+  ],
+  "critical_gaps": [],
+  "medium_gaps": [],
+  "optional_gaps": [
+    {
+      "skill": "Machine Learning",
+      "frequency": 42.86
+    },
+    {
+      "skill": "JavaScript",
+      "frequency": 28.57
+    },
+    {
+      "skill": "AWS",
+      "frequency": 21.43
+    },
+    {
+      "skill": "Agile",
+      "frequency": 21.43
+    },
+    {
+      "skill": "Azure",
+      "frequency": 21.43
+    },
+    {
+      "skill": "CSS",
+      "frequency": 21.43
+    },
+    {
+      "skill": "Fine-tuning",
+      "frequency": 21.43
+    },
+    {
+      "skill": "HTML",
+      "frequency": 21.43
+    },
+    {
+      "skill": "SQL",
+      "frequency": 21.43
+    },
+    {
+      "skill": "Scrum",
+      "frequency": 21.43
+    },
+    {
+      "skill": "Deep Learning",
+      "frequency": 14.29
+    },
+    {
+      "skill": "Docker",
+      "frequency": 14.29
+    },
+    {
+      "skill": "Java",
+      "frequency": 14.29
+    },
+    {
+      "skill": "System Design",
+      "frequency": 14.29
+    },
+    {
+      "skill": "Angular",
+      "frequency": 7.14
+    },
+    {
+      "skill": "Apache Spark",
+      "frequency": 7.14
+    },
+    {
+      "skill": "C#",
+      "frequency": 7.14
+    },
+    {
+      "skill": "CI/CD",
+      "frequency": 7.14
+    },
+    {
+      "skill": "Cassandra",
+      "frequency": 7.14
+    },
+    {
+      "skill": "Elasticsearch",
+      "frequency": 7.14
+    },
+    {
+      "skill": "Excel",
+      "frequency": 7.14
+    },
+    {
+      "skill": "Go",
+      "frequency": 7.14
+    },
+    {
+      "skill": "Jira",
+      "frequency": 7.14
+    },
+    {
+      "skill": "Kubernetes",
+      "frequency": 7.14
+    },
+    {
+      "skill": "Microservices",
+      "frequency": 7.14
+    },
+    {
+      "skill": "MongoDB",
+      "frequency": 7.14
+    },
+    {
+      "skill": "PostgreSQL",
+      "frequency": 7.14
+    },
+    {
+      "skill": "REST API",
+      "frequency": 7.14
+    },
+    {
+      "skill": "React",
+      "frequency": 7.14
+    },
+    {
+      "skill": "Scala",
+      "frequency": 7.14
+    },
+    {
+      "skill": "TypeScript",
+      "frequency": 7.14
+    }
+  ],
+  "improvement_actions": [
+    {
+      "skill": "Machine Learning",
+      "priority": "Low",
+      "frequency": 42.86,
+      "reason": "Appears in 43% of target role job descriptions",
+      "actions": [
+        "Master scikit-learn for classical ML algorithms",
+        "Complete an end-to-end ML project: EDA -> training -> evaluation"
+      ],
+      "category": "Domain Knowledge",
+      "description": "Field of AI focused on algorithms that learn from data.",
+      "importance_reason": "Core competency for any AI/ML engineering role"
+    },
+    {
+      "skill": "JavaScript",
+      "priority": "Low",
+      "frequency": 28.57,
+      "reason": "Appears in 29% of target role job descriptions",
+      "actions": [
+        "Study core concepts and official documentation",
+        "Build a small hands-on project demonstrating the skill"
+      ],
+      "category": "Programming Language",
+      "description": "Primary language for web development.",
+      "importance_reason": "Useful for AI engineers building full-stack AI applications"
+    },
+    {
+      "skill": "AWS",
+      "priority": "Low",
+      "frequency": 21.43,
+      "reason": "Appears in 21% of target role job descriptions",
+      "actions": [
+        "Complete AWS Cloud Practitioner Essentials",
+        "Deploy a small project using S3 + EC2 + RDS"
+      ],
+      "category": "Cloud Platform",
+      "description": "Amazon Web Services - leading cloud computing platform.",
+      "importance_reason": "Widely used for hosting ML infrastructure and services"
+    },
+    {
+      "skill": "Agile",
+      "priority": "Low",
+      "frequency": 21.43,
+      "reason": "Appears in 21% of target role job descriptions",
+      "actions": [
+        "Study core concepts and official documentation",
+        "Build a small hands-on project demonstrating the skill"
+      ],
+      "category": "Methodology",
+      "description": "Iterative approach to project management and software development.",
+      "importance_reason": "Standard development methodology in tech companies"
+    },
+    {
+      "skill": "Azure",
+      "priority": "Low",
+      "frequency": 21.43,
+      "reason": "Appears in 21% of target role job descriptions",
+      "actions": [
+        "Complete Azure Fundamentals (AZ-900) learning path",
+        "Deploy a small project using App Service + Azure SQL"
+      ],
+      "category": "Cloud Platform",
+      "description": "Microsoft's cloud computing platform.",
+      "importance_reason": "Strong enterprise adoption, integrated with Microsoft ecosystem"
+    }
+  ],
+  "graph_insights": {
+    "missing_skills": {
+      "target_skills": [],
+      "missing_prerequisites": {}
+    },
+    "deepen_skills": {
+      "current_strengths": [
+        "Python",
+        "LLM",
+        "RAG",
+        "Computer Vision"
+      ],
+      "recommended_next": [
+        {
+          "skill": "TensorFlow",
+          "reason": "Natural progression from Python",
+          "source_skill": "Python"
+        },
+        {
+          "skill": "Machine Learning",
+          "reason": "Natural progression from Python",
+          "source_skill": "Python"
+        },
+        {
+          "skill": "Deep Learning",
+          "reason": "Natural progression from Python",
+          "source_skill": "Python"
+        },
+        {
+          "skill": "Fine-tuning",
+          "reason": "Natural progression from LLM",
+          "source_skill": "LLM"
+        },
+        {
+          "skill": "AI Agent",
+          "reason": "Natural progression from LLM",
+          "source_skill": "LLM"
+        },
+        {
+          "skill": "vLLM",
+          "reason": "Natural progression from LLM",
+          "source_skill": "LLM"
+        },
+        {
+          "skill": "ChromaDB",
+          "reason": "Natural progression from RAG",
+          "source_skill": "RAG"
+        }
+      ]
+    },
+    "expand_skills": {
+      "target_skills": [
+        "Machine Learning",
+        "JavaScript",
+        "AWS",
+        "Agile",
+        "Azure",
+        "CSS",
+        "Fine-tuning",
+        "HTML",
+        "SQL",
+        "Scrum"
+      ],
+      "missing_prerequisites": {
+        "Machine Learning": [
+          "SQL"
+        ]
+      }
+    },
+    "recommended_learning_order": [
+      {
+        "skill": "SQL",
+        "type": "prerequisite_for_expansion",
+        "source": "Machine Learning"
+      },
+      {
+        "skill": "Machine Learning",
+        "type": "expansion_target",
+        "source": ""
+      },
+      {
+        "skill": "JavaScript",
+        "type": "expansion_target",
+        "source": ""
+      },
+      {
+        "skill": "AWS",
+        "type": "expansion_target",
+        "source": ""
+      },
+      {
+        "skill": "Agile",
+        "type": "expansion_target",
+        "source": ""
+      },
+      {
+        "skill": "Azure",
+        "type": "expansion_target",
+        "source": ""
+      },
+      {
+        "skill": "CSS",
+        "type": "expansion_target",
+        "source": ""
+      },
+      {
+        "skill": "Fine-tuning",
+        "type": "expansion_target",
+        "source": ""
+      },
+      {
+        "skill": "HTML",
+        "type": "expansion_target",
+        "source": ""
+      },
+      {
+        "skill": "Scrum",
+        "type": "expansion_target",
+        "source": ""
+      },
+      {
+        "skill": "TensorFlow",
+        "type": "deepen",
+        "source": "Python"
+      },
+      {
+        "skill": "Deep Learning",
+        "type": "deepen",
+        "source": "Python"
+      },
+      {
+        "skill": "AI Agent",
+        "type": "deepen",
+        "source": "LLM"
+      },
+      {
+        "skill": "vLLM",
+        "type": "deepen",
+        "source": "LLM"
+      },
+      {
+        "skill": "ChromaDB",
+        "type": "deepen",
+        "source": "RAG"
+      }
+    ]
+  }
+}

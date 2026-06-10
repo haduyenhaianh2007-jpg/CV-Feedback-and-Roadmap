@@ -1,0 +1,142 @@
+{
+  "Python": {
+    "category": "Programming Language",
+    "description": "General-purpose programming language widely used in AI/ML, data science, and backend development.",
+    "importance_reason": "Dominant language in AI engineering for prototyping and production ML systems"
+  },
+  "PyTorch": {
+    "category": "Deep Learning Framework",
+    "description": "Open-source machine learning framework developed by Meta AI Research.",
+    "importance_reason": "Preferred framework for research and production deep learning models"
+  },
+  "TensorFlow": {
+    "category": "Deep Learning Framework",
+    "description": "End-to-end open-source platform for machine learning developed by Google.",
+    "importance_reason": "Widely used for production ML deployments, especially on mobile and edge"
+  },
+  "Machine Learning": {
+    "category": "Domain Knowledge",
+    "description": "Field of AI focused on algorithms that learn from data.",
+    "importance_reason": "Core competency for any AI/ML engineering role"
+  },
+  "Deep Learning": {
+    "category": "Domain Knowledge",
+    "description": "Subset of ML using neural networks with multiple layers.",
+    "importance_reason": "Foundation for modern AI systems: vision, NLP, generative AI"
+  },
+  "Computer Vision": {
+    "category": "Domain Knowledge",
+    "description": "Field of AI that enables machines to interpret visual data.",
+    "importance_reason": "Critical for roles involving image/video analysis, autonomous systems"
+  },
+  "Natural Language Processing": {
+    "category": "Domain Knowledge",
+    "description": "Field of AI focused on interaction between computers and human language.",
+    "importance_reason": "Foundation for chatbots, translation, text analysis, LLMs"
+  },
+  "LLM": {
+    "category": "AI Technology",
+    "description": "Large Language Models - neural networks trained on vast text corpora.",
+    "importance_reason": "Dominant technology trend in AI; required for modern AI engineering"
+  },
+  "RAG": {
+    "category": "AI Architecture",
+    "description": "Retrieval-Augmented Generation - combines retrieval with LLM generation.",
+    "importance_reason": "Key pattern for grounding LLMs in private/real-time data"
+  },
+  "Prompt Engineering": {
+    "category": "AI Skill",
+    "description": "Crafting effective inputs to get optimal outputs from LLMs.",
+    "importance_reason": "Critical skill for leveraging LLMs effectively in products"
+  },
+  "Fine-tuning": {
+    "category": "AI Technique",
+    "description": "Adapting a pre-trained model to a specific task or domain.",
+    "importance_reason": "Essential for customizing foundation models to business needs"
+  },
+  "MLOps": {
+    "category": "Engineering Practice",
+    "description": "Practices for deploying and maintaining ML models in production.",
+    "importance_reason": "Bridges the gap between ML research and production systems"
+  },
+  "Docker": {
+    "category": "DevOps",
+    "description": "Platform for containerizing applications for consistent deployment.",
+    "importance_reason": "Standard tool for reproducible ML environments and deployment"
+  },
+  "Kubernetes": {
+    "category": "DevOps",
+    "description": "Container orchestration platform for automating deployment and scaling.",
+    "importance_reason": "Essential for scaling ML workloads in production"
+  },
+  "CI/CD": {
+    "category": "DevOps",
+    "description": "Continuous Integration and Continuous Deployment practices.",
+    "importance_reason": "Ensures reliable, automated delivery of ML systems to production"
+  },
+  "AWS": {
+    "category": "Cloud Platform",
+    "description": "Amazon Web Services - leading cloud computing platform.",
+    "importance_reason": "Widely used for hosting ML infrastructure and services"
+  },
+  "Azure": {
+    "category": "Cloud Platform",
+    "description": "Microsoft's cloud computing platform.",
+    "importance_reason": "Strong enterprise adoption, integrated with Microsoft ecosystem"
+  },
+  "Google Cloud Platform": {
+    "category": "Cloud Platform",
+    "description": "Google's suite of cloud computing services.",
+    "importance_reason": "Strong AI/ML offerings including Vertex AI and TPUs"
+  },
+  "SQL": {
+    "category": "Data",
+    "description": "Standard language for managing and querying relational databases.",
+    "importance_reason": "Essential for data access and analysis in any data-driven role"
+  },
+  "Git": {
+    "category": "Version Control",
+    "description": "Distributed version control system for tracking code changes.",
+    "importance_reason": "Universal tool for collaborative software development"
+  },
+  "Apache Spark": {
+    "category": "Big Data",
+    "description": "Unified analytics engine for large-scale data processing.",
+    "importance_reason": "Standard tool for processing big data in ML pipelines"
+  },
+  "Scikit-learn": {
+    "category": "ML Library",
+    "description": "Python library for classical machine learning algorithms.",
+    "importance_reason": "Go-to library for traditional ML tasks in Python"
+  },
+  "JavaScript": {
+    "category": "Programming Language",
+    "description": "Primary language for web development.",
+    "importance_reason": "Useful for AI engineers building full-stack AI applications"
+  },
+  "React": {
+    "category": "Frontend Framework",
+    "description": "JavaScript library for building user interfaces.",
+    "importance_reason": "Popular choice for building AI product frontends"
+  },
+  "REST API": {
+    "category": "Architecture",
+    "description": "Representational State Transfer - standard for web service APIs.",
+    "importance_reason": "Standard way to expose ML models as services"
+  },
+  "Agile": {
+    "category": "Methodology",
+    "description": "Iterative approach to project management and software development.",
+    "importance_reason": "Standard development methodology in tech companies"
+  },
+  "Scrum": {
+    "category": "Methodology",
+    "description": "Specific Agile framework for managing complex work.",
+    "importance_reason": "Widely adopted framework for engineering teams"
+  },
+  "System Design": {
+    "category": "Engineering",
+    "description": "Designing the architecture of complex software systems.",
+    "importance_reason": "Critical for senior engineering roles and scalable ML systems"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "stage": {
+    "stage": "Student",
+    "confidence": 0.5,
+    "signals": {
+      "work_experience_years": null,
+      "skill_count": 3,
+      "advanced_skill_count": 0,
+      "has_advanced_skills": false,
+      "refined_reason": "không có thông tin kinh nghiệm + 3 core skills"
+    }
+  },
+  "target_role": "AI Engineer",
+  "current_readiness": 18,
+  "projected_readiness": 42,
+  "improvement_delta": 24,
+  "ats_projection": {
+    "current": 18,
+    "final": 42,
+    "improvement_delta": 24,
+    "phase_1": 34,
+    "phase_2": 40,
+    "phase_3": 42
+  },
+  "roadmap": [
+    {
+      "phase": 2,
+      "name": "Kỹ năng cốt lõi",
+      "duration_months": 3,
+      "estimated_hours": 80,
+      "skills": [
+        {
+          "skill": "LLM",
+          "reason": "Medium gap - frequency 57.1%"
+        },
+        {
+          "skill": "RAG",
+          "reason": "Medium gap - frequency 57.1%"
+        }
+      ],
+      "success_criteria": [
+        "Xây dựng được project với core skills"
+      ],
+      "expected_readiness": 34,
+      "readiness_gain": 16
+    },
+    {
+      "phase": 3,
+      "name": "Kỹ năng nâng cao",
+      "duration_months": 3,
+      "estimated_hours": 40,
+      "skills": [
+        {
+          "skill": "Machine Learning",
+          "reason": "High-frequency optional - 42.9%"
+        }
+      ],
+      "success_criteria": [
+        "Hoàn thành advanced project",
+        "SQL queries phức tạp (JOIN, GROUP BY, window functions)",
+        "Feature engineering cơ bản"
+      ],
+      "expected_readiness": 40,
+      "readiness_gain": 6,
+      "project": {
+        "name": "Customer Churn Prediction",
+        "difficulty": "Beginner",
+        "tech_stack": [
+          "Python",
+          "SQL",
+          "Scikit-learn",
+          "Pandas"
+        ],
+        "deliverables": [
+          "Notebook EDA trên dataset thật (Kaggle Telco Churn)",
+          "Train 3 model khác nhau (Logistic Regression, Random Forest, XGBoost)",
+          "Model đạt >80% accuracy",
+          "Deploy lên Streamlit với UI đơn giản"
+        ],
+        "learning_outcomes": [
+          "SQL queries phức tạp (JOIN, GROUP BY, window functions)",
+          "Feature engineering cơ bản",
+          "Model evaluation metrics (accuracy, precision, recall)",
+          "Basic deployment với Streamlit"
+        ],
+        "estimated_hours": 40
+      }
+    },
+    {
+      "phase": 4,
+      "name": "Production-ready",
+      "duration_months": 2,
+      "estimated_hours": 70,
+      "skills": [
+        {
+          "skill": "TensorFlow",
+          "reason": "Natural progression từ Python"
+        },
+        {
+          "skill": "Machine Learning",
+          "reason": "Natural progression từ Python"
+        },
+        {
+          "skill": "Docker",
+          "reason": "Production deployment skill"
+        }
+      ],
+      "success_criteria": [
+        "Deploy production project"
+      ],
+      "expected_readiness": 42,
+      "readiness_gain": 2
+    }
+  ],
+  "optional_stretch": [
+    {
+      "skill": "Deep Learning",
+      "reason": "Natural progression from Python"
+    },
+    {
+      "skill": "FastAPI",
+      "reason": "Natural progression from Python"
+    },
+    {
+      "skill": "Streamlit",
+      "reason": "Natural progression from Python"
+    }
+  ],
+  "alternative_paths": {
+    "if_has_cloud_already": "Skip cloud skills, add MLOps focus",
+    "if_prefers_research": "Replace Phase 4 with 'Research & Paper Reproduction'",
+    "if_targeting_startup": "Add full-stack skills (JavaScript, React)"
+  }
+}

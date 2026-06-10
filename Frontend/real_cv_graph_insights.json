@@ -1,0 +1,147 @@
+{
+  "missing_skills": {
+    "target_skills": [],
+    "missing_prerequisites": {}
+  },
+  "deepen_skills": {
+    "current_strengths": [
+      "Python",
+      "LLM",
+      "RAG",
+      "Computer Vision"
+    ],
+    "recommended_next": [
+      {
+        "skill": "TensorFlow",
+        "reason": "Natural progression from Python",
+        "source_skill": "Python"
+      },
+      {
+        "skill": "Machine Learning",
+        "reason": "Natural progression from Python",
+        "source_skill": "Python"
+      },
+      {
+        "skill": "Deep Learning",
+        "reason": "Natural progression from Python",
+        "source_skill": "Python"
+      },
+      {
+        "skill": "Fine-tuning",
+        "reason": "Natural progression from LLM",
+        "source_skill": "LLM"
+      },
+      {
+        "skill": "AI Agent",
+        "reason": "Natural progression from LLM",
+        "source_skill": "LLM"
+      },
+      {
+        "skill": "vLLM",
+        "reason": "Natural progression from LLM",
+        "source_skill": "LLM"
+      },
+      {
+        "skill": "ChromaDB",
+        "reason": "Natural progression from RAG",
+        "source_skill": "RAG"
+      }
+    ]
+  },
+  "expand_skills": {
+    "target_skills": [
+      "Machine Learning",
+      "JavaScript",
+      "AWS",
+      "Agile",
+      "Azure",
+      "CSS",
+      "Fine-tuning",
+      "HTML",
+      "SQL",
+      "Scrum"
+    ],
+    "missing_prerequisites": {
+      "Machine Learning": [
+        "SQL"
+      ]
+    }
+  },
+  "recommended_learning_order": [
+    {
+      "skill": "SQL",
+      "type": "prerequisite_for_expansion",
+      "source": "Machine Learning"
+    },
+    {
+      "skill": "Machine Learning",
+      "type": "expansion_target",
+      "source": ""
+    },
+    {
+      "skill": "JavaScript",
+      "type": "expansion_target",
+      "source": ""
+    },
+    {
+      "skill": "AWS",
+      "type": "expansion_target",
+      "source": ""
+    },
+    {
+      "skill": "Agile",
+      "type": "expansion_target",
+      "source": ""
+    },
+    {
+      "skill": "Azure",
+      "type": "expansion_target",
+      "source": ""
+    },
+    {
+      "skill": "CSS",
+      "type": "expansion_target",
+      "source": ""
+    },
+    {
+      "skill": "Fine-tuning",
+      "type": "expansion_target",
+      "source": ""
+    },
+    {
+      "skill": "HTML",
+      "type": "expansion_target",
+      "source": ""
+    },
+    {
+      "skill": "Scrum",
+      "type": "expansion_target",
+      "source": ""
+    },
+    {
+      "skill": "TensorFlow",
+      "type": "deepen",
+      "source": "Python"
+    },
+    {
+      "skill": "Deep Learning",
+      "type": "deepen",
+      "source": "Python"
+    },
+    {
+      "skill": "AI Agent",
+      "type": "deepen",
+      "source": "LLM"
+    },
+    {
+      "skill": "vLLM",
+      "type": "deepen",
+      "source": "LLM"
+    },
+    {
+      "skill": "ChromaDB",
+      "type": "deepen",
+      "source": "RAG"
+    }
+  ]
+}

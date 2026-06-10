@@ -1,0 +1,25 @@
+## Tổng quan
+Bạn đang nhắm mục tiêu trở thành một nhà phát triển trí tuệ nhân tạo (AI Engineer). Theo đánh giá của công cụSkill Gap Engine, chỉ số sẵn sàng của bạn là 18%. Dù vậy, bạn đã xây dựng được một nền tảng vững chắc trong một số lĩnh vực mà yêu cầu của thị trường rất phổ biến.
+
+## Điểm mạnh
+- **Python:** Bạn sử dụng nó với tần suất 64,29%. Đây là ngôn ngữ lập trình đa dạng dùng rộng rãi trong lĩnh vực AI/Machine Learning cũng như Backend Development. 
+- **Computer Vision:** Tần suất 50,0%. Đây là lĩnh vực nghiên cứu AI chuyên về xử lý hình ảnh tự động hóa.
+- **PyTorch:** Sử dụng tần suất 21,43%. Đây là một thư viện mã nguồn mở nổi tiếng dành riêng cho việc học máy và deep learning.
+
+Những kỹ năng này đều thể hiện sự hiểu biết sâu sắc của bạn đối với những khía cạnh cơ bản của AI, đặc biệt là phần mềm và lĩnh vực nhận diện hình ảnh.
+
+## Khoảng trống trung bình
+Tín hiệu đáng lo ngại từ bảng phân tích cho thấy bạn vẫn còn nhiều điều để học thêm, nhưng chưa đến mức nguy hiểm. 
+
+- **LLM:** Có tần suất xuất hiện trong mô tả công việc là 57,14%. Large Language Model là mô hình mạng nơtron huấn luyện trên lượng lớn văn bản.
+- **RAG:** Cũng đạt tần suất tương đương 57,14%. Retrieval-Augmented Generation liên kết việc lấy lại thông tin và quá trình sinh ra bằng cách sử dụng LLM.
+
+Cả hai kỹ năng này đều nằm trong danh sách kỹ năng mong muốn có của người làm nghề AI Engineer.
+
+## Đánh giá mức độ sẵn sàng
+Dựa vào điểm sẵn sàng 18%, rõ ràng rằng bạn đã bắt đầu nắm giữ một bộ kỹ năng khá đầy đủ. Tổng trọng số kỹ năng hiện có là 135,72, khi so sánh với tổng trọng số kỹ năng yêu cầu là 735,69, chúng ta thấy tồn tại một khoảng cách lớn giữa thực tế và nhu cầu thị trường. Số kỹ năng bạn đã có chiếm tỷ lệ nhỏ so với tổng số kỹ năng thị trường (3/40), phản ánh khả năng của bạn cần phải tăng cường.
+
+## Kế hoạch cải thiện
+Việc cải thiện sẽ diễn ra theo thứ tự ưu tiên dưới đây:
+
+- **LLM:** Mức độ ưu tiên là trung bình, tần suất 57,14%. Để chuẩn bị cho LLM, hãy tìm hiểu cấu trúc Tra

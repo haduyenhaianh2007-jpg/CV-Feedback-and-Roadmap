@@ -1,0 +1,29 @@
+{
+  "target_skills": [
+    "LLM",
+    "RAG"
+  ],
+  "missing_prerequisites": {
+    "LLM": [
+      "Deep Learning",
+      "Natural Language Processing",
+      "Machine Learning",
+      "SQL"
+    ],
+    "RAG": [
+      "LLM",
+      "SQL",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Machine Learning"
+    ]
+  },
+  "recommended_learning_order": [
+    "Deep Learning",
+    "Natural Language Processing",
+    "Machine Learning",
+    "SQL",
+    "LLM",
+    "RAG"
+  ]
+}

@@ -1,0 +1,63 @@
+Ha Duyen Hai Anh
+Computer Science Student | AI Engineer Intern Candidate | Healthcare AI & LLM/RAG
+ +(84) 971 190 707
+|
+# haduyenhaianh2007@gmail.com
+|
+§ Github
+Computer Science student at HUST focused on Healthcare AI, LLM applications, RAG systems, and AI engineering. Built AI prototypes
+combining FastAPI, React, ChromaDB, Vietnamese STT, and transformer models for dermatology support and mood analysis.
+EDUCATION
+Hanoi University of Science and Technology – HUST
+Ha Noi, Viet Nam
+Major: Computer Science – CPA: 3.47/4.0
+09/2025 – Present
+SKILLS
+Programming: Python, C/C++
+AI/ML: PyTorch, Scikit-learn, Hugging Face Transformers, NLP, Computer Vision, LLMs, RAG, Prompt Engineering, Model Evaluation
+Libraries & Frameworks: Pandas, NumPy, Matplotlib, OpenCV, FastAPI, Streamlit, KARE, Data Preprocessing, AI-assisted Coding
+Tools: Git, GitHub, Google Colab, Kaggle, Jupyter Notebook, LaTeX, Overleaf, Data Structures
+PROJECTS
+MEdPilot – AI Dermatology Diagnosis Support Suite
+GitHub
+Team Project; Lead + AI Engineer | FastAPI, React, vLLM, Qwen2.5-1.5B, Gemini, ChromaDB, PhoWhisper, RAG
+• Led AI development for MEdPilot, helping doctors convert Vietnamese consultation audio into structured clinical information, diagnostic
+suggestions, and RAG-grounded medical responses.
+• Implemented rule-matching and RAG retrieval over 219 skin diseases and 75,659 indexed knowledge chunks, enabling doctor/patient
+modes, red-flag alerts, follow-up questions, and SOAP-style draft notes.
+AI Mood Journal – Mental Wellness Journal for Vietnamese Students
+GitHub
+Team Project; Team Leader + AI Engineer | Python, Hugging Face, PhoBERT, GPT-4o-mini, Pandas, Matplotlib, JSON
+• Led AI development for a Vietnamese mental wellness journaling system that analyzes student entries and provides emotional reflection,
+supportive responses, activity suggestions, and safety alerts.
+• Built a Vietnamese NLP pipeline using PhoBERT, Hugging Face Transformers, GPT-4o-mini, and JSON-based tracking for sentiment
+analysis, topic classification, mood history, to-do extraction, and dashboard visualization.
+GenAI Video Project – SOICT 30th Anniversary
+Team Project
+Team Project | HeyGen, Generative AI, Prompt Engineering, AI-assisted Content Creation
+• Implemented the technical workflow for a HeyGen-based GenAI video created for the 30th Anniversary of SOICT, using prompt
+engineering and AI-assisted content generation for script-to-video production.
+COMPETITION AND AWARD
+• Top 13, Student Technology Project Showcase – MEdPilot
+• Top 9 Outstanding Teams, Student Creative Idea Challenge – SCIC Q1 2026 – MEdPilot
+• Top 60 Outstanding Projects, Data4Life – AI Mood Journal
+EXPERIENCE & ACTIVITIES
+Learning Material Developer & AI Teaching Assistant
+Summer 2026
+KIDEMY Summer Camp
+• Developed AI learning materials and supported beginner-friendly AI sessions with hands-on activities for young learners.
+Math Tutor & Academic Content Developer
+Present
+Online / Offline Tutoring
+• Tutored THCS/THPT students and developed structured practice problems for online mathematics education.
+DEV-AI Member & Hackathon Organizing Committee
+08/2025 – Present
+GDG HUST / Google Developer On Campus - HUST
+• Participated in AI-related activities and served as an organizing committee member for GDG Hackathon 2026.
+Academic Team Member
+08/2025 – Present
+SoDiTEC Club – Digital Transformation in Education
+• Developed academic materials, researched digital transformation in education, and improved the club’s LaTeX course.
+CERTIFICATIONS
+IELTS 6.0 | GDG Hackathon 2026 Organizing Committee Certificate | Google Prompting Essentials – Coursera
+\n\n
